@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: honeydew;
+}
+
+#titulo-principal {
+  border-bottom: 3px solid blue;
+  color: darkblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.titulos {
+  color: white;
+}
+
+.paragrafos {
+  color: darkgray;
+  font-size: 16px;
+  margin: 20px;
+  text-align: center;
+}
+
+.listas {
+  color: black;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 25px;
+  padding: 20px;
+}
+
+#webdesing {
+  width: 400px;
+  border: 3px solid blue;
+  display: block;
+  margin: 0 auto;
+}
+
+.listas li:hover {
+  color: black;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+.listas {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
