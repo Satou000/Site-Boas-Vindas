@@ -6,6 +6,7 @@
 
 body {
   background-color: honeydew;
+  font-family: "SUSE", sans-serif
 }
 
 #titulo-principal {
@@ -20,7 +21,7 @@ body {
 }
 
 .paragrafos {
-  color: darkgray;
+  color: rgb(99, 95, 95);
   font-size: 16px;
   margin: 20px;
   text-align: center;
